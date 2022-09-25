@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/MAfarrag/statista/archive/{{ version }}.tar.gz
-  sha256: 53AF1A5B34D940BDAC47971C75C05BD61DCD6C78CD58E23F4273D4B015CCF1EE
+  sha256: 53af1a5b34d940bdac47971c75c05bd61dcd6c78cd58e23f4273d4b015ccf1ee
 
 build:
   number: 0
