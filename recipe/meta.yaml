@@ -1,5 +1,5 @@
 {% set name = "statista" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/MAfarrag/statista/archive/{{ version }}.tar.gz
-  sha256: 8cfbe06d329d4e953d6ec0859bdc1c9b246c962081dae43d513c9c857e97f35c
+  sha256: 5430A81FA69CF12C795A652E2C342D9707430F39C73B28C0458B963054C845B7
 
 build:
   number: 0
@@ -22,12 +22,13 @@ requirements:
   run:
     - python >=3.9,<3.15
     - pip >=22.3.1
-    - numpy ==1.23.5
-    - matplotlib >=3.5.3
-    - pandas >=1.4.4
+    - numpy ==1.24.1
+    - matplotlib >=3.6.3
+    - pandas >=1.5.3
     - scipy >=1.9.0
-    - scikit-learn >=1.1.1
+    - scikit-learn >=1.2.1
     - loguru >=0.6.0
+
 
 test:
   imports:
