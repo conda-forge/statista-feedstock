@@ -1,5 +1,5 @@
 {% set name = "statista" %}
-{% set version = "0.1.8" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/MAfarrag/statista/archive/{{ version }}.tar.gz
-  sha256: 5430a81fa69cf12c795a652e2c342d9707430f39c73b28c0458b963054c845b7
+  sha256: 2d4f7c9f89fc196e44a5c1285fe15e91f9fcac522ed3ce78c7815e769affc243
 
 build:
   number: 0
