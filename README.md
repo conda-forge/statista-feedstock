@@ -3,13 +3,13 @@ About statista-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/statista-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/MAfarrag/statista
+Home: https://github.com/Serapieum-of-alex/statista
 
 Package license: GPL-3.0-only
 
 Summary: Statistical Package
 
-Development: https://github.com/MAfarrag/statista
+Development: https://github.com/Serapieum-of-alex/statista
 
 Documentation: https://statista.readthedocs.io/
 
