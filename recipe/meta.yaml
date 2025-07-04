@@ -1,6 +1,6 @@
-{% set python_min = '3.12' %}
+{% set python_min = "3.12" %}
 {% set name = "statista" %}
-{% set version = "0.6.0" %}
+{% set version = "0.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://github.com/MAfarrag/statista/archive/{{ version }}.tar.gz
-  sha256: d7e32f4e6b612bd0e67ed9ee5adcad783998f78cf5ba6ff36c7ea4436301694c
+  sha256: 4b6fd289e0f4ce07d641b70b9afc9e9d7c0b72f39f7e7c6e1615ec07dc19806a
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
