@@ -22,7 +22,6 @@ requirements:
   run:
     - python >={{ python_min }}
     - numpy >=2.0.1
-    - pip >=23.2.1
     - matplotlib >=3.9.0
     - pandas >=2.1.0
     - scipy >=1.14.0
@@ -44,8 +43,8 @@ about:
   description: |
     Statistical Package.
   dev_url: https://github.com/Serapieum-of-alex/statista
-  doc_url: https://statista.readthedocs.io/
-  doc_source_url: https://github.com/MAfarrag/Serapieum-of-alex/main/README.md
+  doc_url: https://serapieum-of-alex.github.io/statista/
+  doc_source_url: https://github.com/Serapieum-of-alex/statista/main/README.md
 
 extra:
   recipe-maintainers:
