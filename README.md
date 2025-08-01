@@ -11,7 +11,7 @@ Summary: Statistical Package
 
 Development: https://github.com/Serapieum-of-alex/statista
 
-Documentation: https://statista.readthedocs.io/
+Documentation: https://serapieum-of-alex.github.io/statista/
 
 Statistical Package.
 
