@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/MAfarrag/statista/archive/{{ version }}.tar.gz
+  url: https://github.com/Serapieum-of-alex/statista/archive/{{ version }}.tar.gz
   sha256: bac50ba9b89ee31163df8eac74f901187d9e44daa83e4f670c217d8b29cca8fa
 
 build:
@@ -19,6 +19,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip >=25.2
+    - hatchling
   run:
     - python >={{ python_min }}
     - numpy >=2.0.0
@@ -36,8 +37,8 @@ test:
 
 about:
   home: https://github.com/Serapieum-of-alex/statista
-  license: GPL-3.0-only
-  license_family: GPL
+  license: MIT
+  license_family: MIT
   license_file: LICENSE.md
   summary: Statistical Package
   description: |
