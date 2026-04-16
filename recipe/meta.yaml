@@ -1,6 +1,6 @@
 {% set python_min = "3.11" %}
 {% set name = "statista" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/Serapieum-of-alex/statista/archive/{{ version }}.tar.gz
-  sha256: bac50ba9b89ee31163df8eac74f901187d9e44daa83e4f670c217d8b29cca8fa
+  sha256: 674542d4a6247751e21c97d395c8e90ed295a4496101b8a98f2f74f9ff84e5d2
 
 build:
   number: 0
